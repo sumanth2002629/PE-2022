@@ -25,4 +25,4 @@ def Reconstruction(shares,public_inputs):
 
     
 if __name__=="__main__":
-    print(Reconstruction([933,910],[3,4,5]))
+    print(Reconstruction([525,32],[3,4,5]))

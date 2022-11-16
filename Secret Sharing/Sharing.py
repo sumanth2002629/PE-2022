@@ -18,5 +18,5 @@ def Sh(public_inputs,secret):
     return shares
 
 if __name__=="__main__":
-    ss = Sh([3,4,5],5)
+    ss = Sh([3,4,5],10)
     print(ss)
