@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/btv/Desktop/PE-2022')
+sys.path.append('/home/btv/Documents/sem5/PE-2022')
 
 from field import Field 
 
@@ -25,4 +25,4 @@ def Reconstruction(shares,public_inputs):
 
     
 if __name__=="__main__":
-    print(Reconstruction([525,32],[3,4,5]))
+    print(Reconstruction([379,167],[3,4,5]))

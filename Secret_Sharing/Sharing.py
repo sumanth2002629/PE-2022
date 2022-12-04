@@ -1,7 +1,7 @@
 import sys
 import random
 
-sys.path.append( '/home/btv/Desktop/PE-2022' )
+sys.path.append( '/home/btv/Documents/sem5/PE-2022' )
 
 from field import Field 
 
