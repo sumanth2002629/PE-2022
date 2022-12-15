@@ -9,7 +9,7 @@ Step 1: Cloning Repository using Git
 <br>
 
 ```bash
-git clone https://github.com/'<your-github-username>'/classDeck.git
+git clone https://github.com/sumanth2002629/PE-2022
 ```
 
 </details>
@@ -22,7 +22,7 @@ Step 2: Change directory to PE-2022
 <br>
 
 ```bash
-cd classDeck
+cd PE-2022
 ```
 
 </details>
