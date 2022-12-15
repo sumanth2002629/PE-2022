@@ -29,7 +29,6 @@ def Addition(id,inp,coeff,public_path):
         while True:
         
             c, addr = s.accept()    
-            print ('Got connection from', addr )
 
             if count==0:
                 x21 = c.recv(1024).decode()
@@ -73,7 +72,6 @@ def Addition(id,inp,coeff,public_path):
 
         while True:
             c, addr = s1.accept()    
-            print ('Got connection from', addr )
 
             x32 = c.recv(1024).decode()
             c.send(str(x23).encode())

@@ -10,14 +10,16 @@ from Reconstruction import Reconstruction
 
 
 id = int(input())
-c = [2,2,2] #coefficients to which the inputs need to be multiplied and and added.
+
+f = open('/home/btv/Documents/sem5/PE-2022/add/coefficients.txt', "r")
+
+c = [int(i) for i in f.read().split(" ")] #coefficients to which the inputs need to be multiplied and and added.
 pub_val_path = '/home/btv/Documents/sem5/PE-2022/add/public_values.txt'
 
 
 if(id==1):
     x1 = int(input())
     y1 = Addition(id,x1,c,pub_val_path)
-    print(y1)
 
     s = socket.socket()
     port = 12348
@@ -30,7 +32,6 @@ if(id==1):
     while True:
     
         c, addr = s.accept()    
-        print ('Got connection from', addr )
 
         if count==0:
             y2 = c.recv(1024).decode()
