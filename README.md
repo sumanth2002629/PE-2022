@@ -61,4 +61,4 @@ Step 6: Repeat Step 5 for all the three parties.
 
 ![Screenshot from 2022-12-15 08-22-24](https://user-images.githubusercontent.com/76842817/207763846-1f7fe3ce-71a8-45d7-8a6d-578188b9a190.png)
 
-
+The output is 2*3 + 2*4 + 2*5.
