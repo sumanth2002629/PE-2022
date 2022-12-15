@@ -47,7 +47,7 @@ Step 4: In the first terminal, give the id and input as 1 and x.(1 corresponding
 
 <details>
 <summary>
-Step 6: Repeat Step 5 for all the three parties.
+Step 5: Repeat Step 4 for all the three parties.
 </summary>
 </details>
 
